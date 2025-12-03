@@ -17,7 +17,7 @@ Array Literals
 */
 
 const fruits = ["apple", "banana", "orange"];
-console.log(fruits.length);
+console.log(fruits.length); // logs "3"
 
 /*
 Boolean Literals
@@ -25,7 +25,7 @@ Boolean Literals
 */
 
 const isWinter = true;
-console.log(isWinter);
+console.log(isWinter); // logs "true"
 
 /*
 Numeric Literals
@@ -38,7 +38,7 @@ Numeric Literals
 
 let num = 100; //Integer Literal
 const pi = 3.14159265359; //Floating Point Literal
-console.log(num, pi);
+console.log(num, pi); // logs "100 3.14159265359"
 
 /* 
 Object Literals
@@ -50,7 +50,7 @@ const family = {
   mother: "Maiya Dangol",
   child: { 4: "Samrid Dangol" },
 };
-console.log(family.father, family.mother, family.child[4]);
+console.log(family.father, family.mother, family.child[4]); // logs "Harsha Narayan Dangol Maiya Dangol Samrid Dangol"
 
 /*
 RegExp literals
@@ -58,7 +58,7 @@ RegExp literals
 */
 
 const re = /ab+c/;
-console.log(re);
+console.log(re); // logs "/ab+c/"
 
 /*
 String Literals
@@ -67,8 +67,8 @@ String Literals
 */
 
 let familyName = "Dangol";
-console.log(familyName, familyName.length);
-console.log("Dangol".length);
+console.log(familyName, familyName.length); // logs "Dangol 6"
+console.log("Dangol".length); // logs 6
 
 /*
 Template Literals 
@@ -88,3 +88,5 @@ console.log(
     presentYear - birthYear
   } years old. It is ${studyingJavaScript} that I'm studying JavaScript.`
 );
+
+// logs "My name is Samrid Dangol and I'm 27 years old. It is true that I'm studying JavaScript."

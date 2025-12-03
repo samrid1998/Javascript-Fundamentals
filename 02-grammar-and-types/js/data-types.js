@@ -35,4 +35,4 @@ const person = {
   age: 27,
 };
 
-console.log(typeof person);
+console.log(typeof person); //logs "object"

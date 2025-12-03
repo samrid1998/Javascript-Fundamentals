@@ -25,7 +25,7 @@ Note:
 */
 
 const PI = 3.14;
-console.log(PI);
+console.log(PI); // logs "3.14"
 // PI = 3.15; // logs "TypeError: Assignment to constant variable.""
 
 /*
@@ -38,12 +38,12 @@ Note:
 
 const MY_OBJECT = { key: "value" };
 MY_OBJECT.key = "otherValue";
-console.log(MY_OBJECT); //logs "{key: 'otherValue'}"
+console.log(MY_OBJECT); // logs "{key: 'otherValue'}"
 
 //Also,the contents of an array are not protected, so the following statement is executed without problems.
 const MY_ARRAY = ["HTML", "CSS"];
 MY_ARRAY.push("JAVASCRIPT");
-console.log(MY_ARRAY); //logs ['HTML', 'CSS', 'JAVASCRIPT'];
+console.log(MY_ARRAY); // logs ['HTML', 'CSS', 'JAVASCRIPT'];
 
 /*
 Variable Scope
@@ -105,11 +105,11 @@ Global Variables
 
 var q = 4;
 let r = 5;
-console.log(window); //logs "Window {window: Window, self: Window, document: document, name: '', location: Location, …}"
-console.log(window.q); //logs "4";
-console.log(window.r); //logs "undefined"
+console.log(window); // logs "Window {window: Window, self: Window, document: document, name: '', location: Location, …}"
+console.log(window.q); // logs "4";
+console.log(window.r); // logs "undefined"
 window.r = 5;
-console.log(window.r); //logs "5"
+console.log(window.r); // logs "5"
 
 /*
     let and const are block-scoped and do not attach themselves to the global window object. 
