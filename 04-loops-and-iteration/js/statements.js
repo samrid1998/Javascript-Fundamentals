@@ -272,7 +272,6 @@ dumpPropsScooter(scooter, "scooter");
 function dumpPropsScooter(obj, objName) {
   for (const [key, val] of Object.entries(obj)) {
     console.log(key, val);
-    // console.log(`${objName}.${i} = ${obj[i]} `);
     /*
       logs
       scooter.make = Honda
