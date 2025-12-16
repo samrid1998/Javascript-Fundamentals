@@ -9,7 +9,7 @@ Primitive Data Types
     Symbol: A data type whose instances are unique and immutable.
 */
 
-let name = "Samrid Dangol"; //String
+let userName = "Samrid Dangol"; //String
 let age = 28; //Number
 let isStudent = true; //Boolean
 let empty = null; //Null
@@ -17,7 +17,7 @@ let x1; //undefined
 let bigInteger = 9007199254740992n; //BigInt
 let id = Symbol("id"); //Symbol
 
-console.log(typeof name); // logs "string"
+console.log(typeof userName); // logs "string"
 console.log(typeof age); // logs "number"
 console.log(typeof isStudent); // logs "boolean"
 console.log(typeof empty); // logs "object"
